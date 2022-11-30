@@ -1,0 +1,111 @@
+/* Nota sobre tipografía: las variantes regular, medium, semibold y bold de la tipografía Work Sans, se corresponden con los pesos 400, 500, 600 y 700*/
+body {
+    font-family: 'Work Sans';
+    margin-left: 20px;
+    background-color: #FFFFFF;
+}
+
+section{
+    border-bottom: solid 1px ;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.colors{
+    display: flex;
+}
+.palette {
+    margin: 20px 10px 40px 10px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    border: solid 0.5px;
+}
+.headerscontent{
+    margin-bottom: 100px;
+}
+.mainButtons{
+    margin-top: 20px;
+}
+.buttonsContent{
+    display: flex;
+}
+/*UTILIDADES*/
+.sectionName {
+    font-weight: 600;
+}
+.backgroundBlack{
+    background-color: #000000;
+}
+.backgroundGray{
+    background-color: #828282;
+}
+.backgroundLightGray{
+    background-color: whitesmoke;
+}
+.backgroundWhite{
+    background-color: #FFFFFF;
+}
+.backgroundAlmond{
+    background-color: #E0CBB5;
+}
+.colorBlack{
+    color: #000000;
+}
+.colorGray{
+    color: #828282;
+}
+.colorWhite{
+    color: #FFFFFF;
+}
+.colorAlmond{
+    color: #E0CBB5;
+}
+.borderBlack{
+    border: solid 0.5px #000000;
+}
+.button {
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: #000000;
+    border: solid 0.5px #000000;
+    background-color: whitesmoke;
+}
+
