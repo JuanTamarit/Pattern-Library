@@ -2,7 +2,7 @@
 body {
     font-family: 'Work Sans';
     margin-left: 20px;
-    background-color: #FFFFFF;
+    background-color: #E0E0E0;
 }
 
 section{
@@ -108,4 +108,45 @@ p {
     border: solid 0.5px #000000;
     background-color: whitesmoke;
 }
+
+.actionMainButton {
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: #000000;
+    border: solid 0.5px #000000;
+    background-color: whitesmoke;
+}
+.actionSecondaryButton {
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    border: solid 0.5px white;
+    background-color: #000000;
+}
+.buttonLinkMainButton{
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: #000000;
+    text-decoration: underline;
+}
+.buttonLinkSecondaryButton{
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
 
