@@ -1,4 +1,5 @@
 /* Nota sobre tipografía: las variantes regular, medium, semibold y bold de la tipografía Work Sans, se corresponden con los pesos 400, 500, 600 y 700*/
+
 body {
     font-family: 'Work Sans';
     margin-left: 20px;
@@ -63,6 +64,9 @@ p {
 }
 .buttonsContent{
     display: flex;
+    font-family: 'Work Sans';
+    font-size: 16px;
+
 }
 /*UTILIDADES*/
 .sectionName {
@@ -98,54 +102,61 @@ p {
 .borderBlack{
     border: solid 0.5px #000000;
 }
-.button {
+button {
     margin: 20px 10px 40px 10px;
     width: 135px;
     height: 25px;
-    text-align: center;
-    padding-top: 5px;
-    color: #000000;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 0.5px #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.actionMainButton { 
+    color: #000000;
     background-color: whitesmoke;
 }
 
-.actionMainButton {
-    margin: 20px 10px 40px 10px;
-    width: 135px;
-    height: 25px;
-    text-align: center;
-    padding-top: 5px;
-    color: #000000;
-    border: solid 0.5px #000000;
-    background-color: whitesmoke;
-}
-.actionSecondaryButton {
-    margin: 20px 10px 40px 10px;
-    width: 135px;
-    height: 25px;
-    text-align: center;
-    padding-top: 5px;
-    color: white;
-    border: solid 0.5px white;
+.actionMainButton:hover {
+    color: #FFFFFF;
     background-color: #000000;
 }
-.buttonLinkMainButton{
-    margin: 20px 10px 40px 10px;
-    width: 135px;
-    height: 25px;
-    text-align: center;
-    padding-top: 5px;
-    color: #000000;
-    text-decoration: underline;
+
+.actionSecondaryButton {
+    color: white;
+    background-color: #000000;
 }
-.buttonLinkSecondaryButton{
-    margin: 20px 10px 40px 10px;
-    width: 135px;
-    height: 25px;
-    text-align: center;
-    padding-top: 5px;
-    color: #ffffff;
-    text-decoration: underline;
+
+.actionSecondaryButton:hover {
+    color: #000000;
+    background-color: whitesmoke;
+}
+
+
+.buttonLinkMainButton {
+    color: #000000;
+    background-color: whitesmoke;
+} 
+
+.buttonLinkMainButton:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.buttonLinkSecondaryButton {
+    color: white;
+    background-color: #000000;
+}
+
+.buttonLinkSecondaryButton:hover {
+    color: #000000;
+    background-color: whitesmoke;
 }
 
 
