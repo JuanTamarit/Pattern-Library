@@ -113,6 +113,17 @@ button {
     align-items: center;
     border: solid 0.5px #000000;
 }
+.button {
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.5px #000000;
+}
 
 a {
     text-decoration: none;
